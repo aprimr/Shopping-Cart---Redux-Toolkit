@@ -1,0 +1,38 @@
+/* Container to center the loader */
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+  /* Optional, can be changed */
+}
+
+/* Spinning circle */
+.spinner {
+  border: 10px solid #f3f3f3;
+  /* Light gray border */
+  border-top: 10px solid #4B5563;
+  /* Blue color for the top border */
+  border-radius: 50%;
+  /* Makes the div a circle */
+  width: 80px;
+  /* Width of the spinner */
+  height: 80px;
+  /* Height of the spinner */
+  animation: spin 1.5s linear infinite;
+  /* Apply spinning animation */
+}
+
+/* Animation for spinning */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+    /* Initial position */
+  }
+
+  100% {
+    transform: rotate(360deg);
+    /* Full rotation */
+  }
+}
