@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { FaStar } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa6";
 import { IoMdAdd } from "react-icons/io";
-import { MdOutlineViewInAr } from "react-icons/md";
 import BodySkeleton from './BodySkeleton';
 
 function Body() {
